@@ -3,7 +3,7 @@
 Example authentication and login implementation using AWS Cognito and Lambda functions.
 ![image](https://github.com/user-attachments/assets/6a276357-805b-4ab9-90d8-df944e29f25e)
 
-# This repository contains :
+This repository contains :
 
 - Lambda Function python code for authentification and login with AWS Cognito Service
 - JSON sample to add to your lambda function as an inline permission policy (to grant it the permission to authenticate with your Cognito service)
