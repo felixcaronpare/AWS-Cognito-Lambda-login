@@ -20,7 +20,7 @@ This repository contains :
 7. In the Lambda function editor, within the tab "Test", paste the JSON sample from LambdaCognitoLogin-test.json. Change the username and password values with valid credentials from one of your Cognito Userpool test users.
 8. Run the test within the Lambda function code editor. If the previous steps were completed correctly, your output should be a response with `"status": "success"` (and other data), confirming your Lambda function and your Cognito services are now working together.
 
-#Limitations
+# Limitations
 - Built for more recent versions of Cognito (previous versions didn't use secrets)
 - Only covers the implementation of Cognito with Lambda -- you will need a bit of tinkering to plug this solution into your own backend infrastructure.
 - Example code is provided in Python, but you can make this work in any language supported by AWS Lambda.
